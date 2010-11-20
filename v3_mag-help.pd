@@ -1,0 +1,16 @@
+#N canvas 144 150 450 300 10;
+#X obj 24 33 v_mag;
+#X text 72 33 - computes the magnitude of a vector;
+#X text 184 79 args: none;
+#X text 182 109 inlet: accepts list of 3 floats;
+#X text 180 143 outlet: float <magnitude>;
+#X obj 32 149 v_mag;
+#X floatatom 32 188 5 0 0 0 - - -;
+#X msg 15 99 1 1 0;
+#X msg 62 79 3 1 2;
+#X msg 100 98 0 0 7;
+#X msg 210 205 version 0.0.1;
+#X connect 5 0 6 0;
+#X connect 7 0 5 0;
+#X connect 8 0 5 0;
+#X connect 9 0 5 0;
