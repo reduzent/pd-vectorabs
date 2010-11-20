@@ -1,8 +1,8 @@
 #N canvas 129 119 462 295 10;
-#X obj 27 22 v_+;
+#X obj 27 22 v3_+;
 #X msg 41 90 2 1 0;
 #X msg 95 92 3 4 5;
-#X obj 27 128 v_+ 0 1 2;
+#X obj 27 128 v3_+ 0 1 2;
 #X obj 27 162 unpack f f f;
 #X floatatom 27 185 5 0 0 0 - - -;
 #X floatatom 66 185 5 0 0 0 - - -;

@@ -5,10 +5,10 @@
 #X floatatom 103 202 5 0 0 0 - - -;
 #X text 221 166 2nd inlet: accepts list of 3 floats;
 #X text 222 265 outlet: list of 3 floats;
-#X obj 23 24 v_move;
+#X obj 23 24 v3_move;
 #X text 78 26 - moves a vector in the given direction on each step
 ;
-#X obj 24 139 v_move 0 0 0 1 2 4;
+#X obj 24 139 v3_move 0 0 0 1 2 4;
 #X msg 84 107 2 2 2;
 #X obj 24 100 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;

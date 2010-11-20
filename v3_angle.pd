@@ -20,9 +20,9 @@
 #X obj 384 73 \$2;
 #X obj 417 74 \$3;
 #X obj 352 96 pack f f f;
-#X obj 138 119 v_mag;
-#X obj 234 147 v_mag;
-#X obj 23 118 v_dot \$1 \$2 \$3;
+#X obj 138 119 v3_mag;
+#X obj 234 147 v3_mag;
+#X obj 23 118 v3_dot \$1 \$2 \$3;
 #X msg 258 259 version 0.0.1;
 #X connect 0 0 5 0;
 #X connect 1 0 13 0;

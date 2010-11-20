@@ -11,9 +11,9 @@
 #X obj 24 191 * 180;
 #X msg 62 92 -1 0 0;
 #X msg 9 89 1 1 0;
-#X obj 24 139 v_angle 0 1 0;
+#X obj 24 139 v3_angle 0 1 0;
 #X msg 130 114 0 1 0;
-#X obj 22 27 v_angle;
+#X obj 22 27 v3_angle;
 #X msg 239 212 version 0.0.1;
 #X connect 0 0 12 1;
 #X connect 5 0 12 0;

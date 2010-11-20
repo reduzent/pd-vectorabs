@@ -5,11 +5,11 @@
 #X text 195 81 args: <X> <Y> <Z>;
 #X text 193 111 1st inlet: accepts list of 3 floats;
 #X text 193 131 2nd inlet: accepts list of 3 floats;
-#X obj 22 27 v_dot;
+#X obj 22 27 v3_dot;
 #X text 68 27 - computes the dot product of two vectors;
 #X text 192 169 outlet: float <dot product>;
 #X floatatom 24 185 5 0 0 0 - - -;
-#X obj 24 139 v_dot 0 1 0;
+#X obj 24 139 v3_dot 0 1 0;
 #X msg 50 67 0 -1 0;
 #X msg 62 92 0 0 -1;
 #X text 22 228 the dot product is the same as: |A|*|B|*cos(rho);
